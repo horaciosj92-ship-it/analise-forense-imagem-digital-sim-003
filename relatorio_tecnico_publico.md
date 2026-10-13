@@ -14,17 +14,18 @@ Este documento apresenta os procedimentos e as observações registradas no estu
 - **Dimensões:** 736 × 1600 pixels.
 - **Modo de cor:** RGB.
 - **Subamostragem de crominância:** YCbCr 4:2:0.
-- **Tamanho:** 176.762 bytes.
+- **Tamanho registrado:** 176.762 bytes.
 - **Validação estrutural com Pillow:** concluída com sucesso.
 - **Validação pelo ExifTool:** resultado registrado como `Validate: OK`.
 - **Metadados EXIF de captura:** não identificados nos exames registrados.
-- - **Verificação de integridade:** os registros do estudo indicam igualdade entre os hashes da evidência recebida e da respectiva cópia de trabalho.
-* **Verificação de integridade:** os registros do estudo indicam igualdade entre os hashes da evidência recebida e da respectiva cópia de trabalho.
-* - **Verificação de integridade:** os registros do estudo indicam igualdade entre os hashes da evidência recebida e da respectiva cópia de trabalho.
+- **Verificação de integridade:** os registros do estudo indicam igualdade entre os hashes da evidência recebida e da respectiva cópia de trabalho.
 - **Verificação complementar com MediaInfoOnline:** formato JPEG; espaço de cor YUV; subamostragem de crominância 4:2:0; profundidade de 8 bits; compressão com perdas (*lossy*).
 - **Tamanho informado pelo MediaInfoOnline:** 173 KiB, valor exibido de forma arredondada pela ferramenta.
 
-A igualdade dos hashes indica correspondência binária entre os arquivos comparados no momento da verificação. Isoladamente, esse resultado não comprova a origem da imagem, sua integridade histórica nem a veracidade de seu conteúdo visual.
+A diferença entre o tamanho registrado em bytes e o valor exibido em KiB pode decorrer da forma de apresentação e arredondamento das ferramentas. A igualdade dos hashes indica correspondência binária entre os arquivos comparados no momento da verificação. Isoladamente, esse resultado não comprova a origem da imagem, sua integridade histórica nem a veracidade de seu conteúdo visual.
+
+## 3. Exames realizados
+
 ### 3.1. Cálculo do hash SHA-256
 
 Foi calculado o hash SHA-256 da evidência recebida e da cópia de trabalho. Os registros disponíveis indicam que os valores obtidos foram iguais.
