@@ -4,7 +4,9 @@
 
 ## 1. Objetivo
 
-Documentar os exames técnicos realizados em uma imagem JPEG, com foco nas características estruturais do arquivo, nos metadados disponíveis e nas análises exploratórias de consistência visual. Este documento apresenta os procedimentos e as observações registrados no estudo, sem substituir um laudo pericial completo.
+Documentar os exames técnicos realizados em uma imagem JPEG, com foco nas características estruturais do arquivo, nos metadados disponíveis e nas análises exploratórias de consistência visual.
+
+Este documento apresenta os procedimentos e as observações registradas no estudo. Não substitui um laudo pericial completo nem representa uma conclusão definitiva sobre a autenticidade da imagem.
 
 ## 2. Características do arquivo
 
@@ -16,9 +18,9 @@ Documentar os exames técnicos realizados em uma imagem JPEG, com foco nas carac
 - **Validação estrutural com Pillow:** concluída com sucesso.
 - **Validação pelo ExifTool:** resultado registrado como `Validate: OK`.
 - **Metadados EXIF de captura:** não identificados nos exames registrados.
-- **Correspondência dos hashes:** os registros do estudo indicam igualdade entre os hashes da evidência recebida e da respectiva cópia de trabalho.
+- **Verificação de integridade:** os registros do estudo indicam igualdade entre os hashes da evidência recebida e da respectiva cópia de trabalho.
 
-A igualdade dos hashes indica correspondência binária entre os arquivos comparados no momento da verificação. Isoladamente, não comprova a origem da imagem, sua integridade histórica nem a veracidade de seu conteúdo visual.
+A igualdade dos hashes indica correspondência binária entre os arquivos comparados no momento da verificação. Isoladamente, esse resultado não comprova a origem da imagem, sua integridade histórica nem a veracidade de seu conteúdo visual.
 
 ## 3. Exames realizados
 
@@ -26,7 +28,7 @@ A igualdade dos hashes indica correspondência binária entre os arquivos compar
 
 Foi calculado o hash SHA-256 da evidência recebida e da cópia de trabalho. Os registros disponíveis indicam que os valores obtidos foram iguais.
 
-Esse resultado sustenta que os arquivos comparados eram binariamente idênticos no momento da verificação. O hash, por si só, não identifica quem criou a imagem, quando ocorreu a captura nem se o conteúdo já havia sido alterado antes do recebimento.
+Esse resultado sustenta que os arquivos comparados eram binariamente idênticos no momento da verificação. O hash, por si só, não demonstra quem criou a imagem, quando ocorreu a captura nem se o conteúdo já havia sido alterado antes do recebimento.
 
 ### 3.2. Extração de metadados com ExifTool
 
@@ -80,7 +82,7 @@ A visualização apresentou variações de luminância associadas a elementos es
 
 A ferramenta Clone Detection foi utilizada com os parâmetros registrados durante o exame, incluindo tamanho de bloco 4 e tamanho máximo de imagem de 1024 pixels.
 
-Foram observadas linhas coloridas sobre áreas que continham elementos repetitivos da interface.
+Na visualização examinada, foram observadas linhas coloridas sobre áreas que continham elementos repetitivos da interface.
 
 Esse resultado visual não basta para afirmar que houve clonagem ou duplicação deliberada de conteúdo. A interpretação exige considerar a disposição dos elementos, os parâmetros do detector e a possibilidade de correspondências naturais ou artefatos produzidos pelo método.
 
@@ -111,7 +113,7 @@ Essa conclusão não significa que a imagem seja autêntica ou adulterada. Signi
 
 Caso esteja disponível, recomenda-se obter o arquivo original diretamente da fonte pertinente, por meio de um procedimento documentado de coleta. A origem deverá ser registrada, e o hash SHA-256 deverá ser calculado e documentado.
 
-A comparação deve preservar os arquivos originais e registrar eventuais diferenças binárias, estruturais e visuais, distinguindo observações técnicas de inferências.
+A comparação deverá preservar os arquivos originais e registrar eventuais diferenças binárias, estruturais e visuais, distinguindo observações técnicas de inferências.
 
 ## 7. Escopo da publicação
 
