@@ -1,0 +1,9 @@
+*.jpeg
+*.jpg
+*.png
+*.pdf
+*.json
+*.zip
+*metadados*
+*exiftool_completo*
+*hash*
